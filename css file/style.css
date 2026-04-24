@@ -24,8 +24,7 @@ header{
   background-color: #FFF8F3;
   background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
   background-repeat: no-repeat;
-  background-position: top left, bottom right;
-  
+  background-position: bottom left, bottom right;
   padding-top: 51px;
 }
 nav{
@@ -161,6 +160,7 @@ align-items: center;
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
+  margin-bottom: 160px;
 }
 #skills .cards-container .cards img{
   padding: 30px;
@@ -174,9 +174,109 @@ align-items: center;
 }
 #skills .cards-container .cards p{
   max-width: 201px;
-  max-height: 196px;
+  /* max-height: 196px; */
   font-size: 16px;
   line-height: 28px;
   color: #757575;
   padding-left: 30px;
+} 
+.resume-heading h2{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  text-align: center;
+  margin-bottom: 113px;
+}
+.boss-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+.resume-container{
+  margin-bottom: 24px;
+  /* border: 2px solid red; */
+  max-width: 511px;
+  /* margin-bottom: 20px; */
+  padding: 24px;
+}
+.card-heading h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom:30px;
+}
+.card-info h3{
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.card-info .details{
+ font-size: 20px;
+ font-weight: 600px;
+ color: #757575;
+ margin-bottom: 20px;
+}
+.card-content{
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  max-width: 511px;
+}
+.card-heading hr{
+margin: 30px 0;
+}
+.button-content{
+  text-align: center;
+  margin-bottom: 105px;
+}
+#myself{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about-myself{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 138px;
+  gap: 117px;
+}
+.myself-content h2{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.myself-content p{
+  font-size: 16px;
+  line-height: 28px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.myself-form h2{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.myself-form input{
+  border: none;
+  display: block;
+  color: #757575;
+  background-color: white;
+  font-size: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.myself-form textarea{
+  border: none;
+  margin-bottom:24px;
+  padding: 20px;
+}
+.myself-form button{
+margin-bottom: 117px;
 }
